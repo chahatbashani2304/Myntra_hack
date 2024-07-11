@@ -1,0 +1,45 @@
+.shop-by-era {
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px; /* Adds space around the content */
+    gap: 10px;
+    margin-left: 200px;
+    margin-right: 200px;
+  }
+  
+  h1 {
+    margin-bottom: 10px; /* Space below the heading */
+    color: #171717;
+    font-size: 50px;
+  }
+  
+  hr {
+    width: 15%; 
+    border-top: 10px solid #000;
+    border-radius: 10px;
+    margin-bottom: 20px; /* Space below the hr */
+  }
+  
+  .shop-era-cat {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Adjusted to 3 columns */
+    grid-template-rows: repeat(2, 1fr); /* Adjusted to 2 rows */
+    gap: 20px; /* Spacing between grid items */
+    justify-items: center; /* Centers items horizontally in the grid cell */
+  }
+  
+  .shop-era-img {
+    max-width: 100%; /* Ensures images fit within their container */
+    height: auto; /* Maintains aspect ratio */
+    cursor: pointer;
+    transition: transform 0.5s ease-in-out;
+  }
+
+  .shop-era-img:hover {
+    transform: scale(1.05); /* Scale up to 110% of the original size on hover */
+  }
+
+  
