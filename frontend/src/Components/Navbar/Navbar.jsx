@@ -21,7 +21,10 @@ const Navbar = () => {
                 <li onClick={() => {setMenu("Men")}}><Link style={{textDecoration:"none"}} to='/mens'>Men</Link>{menu==="Men"?<hr/>:<></>}</li>
                 <li onClick={() => {setMenu("Women")}}><Link style={{textDecoration:"none"}} to='/womens'>Women</Link>{menu==="Women"?<hr/>:<></>}</li>
                 <li onClick={() => {setMenu("Kids")}}><Link style={{textDecoration:"none"}} to='/kids'>Kids</Link>{menu==="Kids"?<hr/>:<></>}</li>
-                <li onClick={() => {setMenu("Recycle")}}>Recycle {menu==="Recycle"?<hr/>:<></>}</li>
+                <li onClick={() => { setMenu("Recycle") }}>
+                    <Link style={{ textDecoration: "none" }} to='/recycle'>Recycle</Link>
+                    {menu === "Recycle" ? <hr /> : <></>}
+                </li>
                 <li onClick={() => {setMenu("Community")}}>Community {menu==="Community"?<hr/>:<></>}</li>
                 <li onClick={() => {setMenu("Redeem")}}>Share to Redeem {menu==="Redeem"?<hr/>:<></>}</li>
             </ul>
