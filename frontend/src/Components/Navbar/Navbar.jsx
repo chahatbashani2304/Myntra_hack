@@ -27,6 +27,10 @@ const Navbar = () => {
                 </li>
                 <li onClick={() => {setMenu("Community")}}>Community {menu==="Community"?<hr/>:<></>}</li>
                 <li onClick={() => {setMenu("Redeem")}}>Share to Redeem {menu==="Redeem"?<hr/>:<></>}</li>
+                <li onClick={() => setMenu("sustainable")}>
+                    <Link style={{ textDecoration: "none" }} to='/sustainable'>Sustainable Fashion</Link>
+                    {menu === "sustainable" ? <hr /> : null}
+                </li>
             </ul>
             <div className='nav-login-cart'>
                 <Link to="/login"><button>Login</button></Link>
