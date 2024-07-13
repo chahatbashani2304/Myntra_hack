@@ -13,6 +13,7 @@ import women_banner from './Components/Assets/banner_women.png'
 import kids_banner from './Components/Assets/banner_kids.png'
 import Thanks from './Pages/Thanks';
 import RecyclePage from './Pages/Recycle';
+import Suspage from './Pages/sustainable';
 
 function App() {
   return (
@@ -31,6 +32,7 @@ function App() {
       <Route path='/login' element={<LoginSignup/>} />
       <Route path='/thanks' element={<Thanks />}/>
       <Route path='/recycle' element={<RecyclePage />} />
+      <Route path='/sustainable' element={<Suspage />} />
       </Routes>
       <Footer/>
       </BrowserRouter>
