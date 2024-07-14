@@ -41,10 +41,7 @@ const Navbar = () => {
                     <Link style={{ textDecoration: "none" }} to='/recycle'>Recycle</Link>
                     {menu === "Recycle" ? <hr /> : <></>}
                 </li>
-                <li onClick={() => { setMenu("Community") }}>
-                    Community
-                    {menu === "Community" ? <hr /> : <></>}
-                </li>
+                
                 <li onClick={handleRedeemClick}>
                     Share to Redeem
                     {menu === "Redeem" ? <hr /> : <></>}
