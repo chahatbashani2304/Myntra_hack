@@ -1,4 +1,4 @@
-# Myntra_hack
+# Myntra_hackathon
 The SustainStyle is a feature-rich web app replicating the core functionalities of the popular fashion e-commerce platform. In addition to typical e-commerce features, this project emphasizes sustainability and user engagement through unique features like recycling clothes, a dedicated sustainability page, and a points-based reward system for social sharing. The application provides users with a seamless and eco-conscious shopping experience.
 
 HOME PAGE 
