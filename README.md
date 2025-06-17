@@ -10,7 +10,8 @@ HOME PAGE
 ![image](https://github.com/user-attachments/assets/b93985e5-9077-40ac-ad61-05706014f605)
 
 RECYCLING PAGE
-![image](https://github.com/user-attachments/assets/4c4bab56-611c-4118-88e6-1d0d520589d9)
+![image](https://github.com/user-attachments/assets/023e6d0d-db44-4f64-8b4e-5cad6207df75)
+
 
 
 
