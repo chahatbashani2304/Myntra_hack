@@ -2,7 +2,8 @@
 The Myntra Clone is a feature-rich web app replicating the core functionalities of the popular fashion e-commerce platform. In addition to typical e-commerce features, this project emphasizes sustainability and user engagement through unique features like recycling clothes, a dedicated sustainability page, and a points-based reward system for social sharing. The application provides users with a seamless and eco-conscious shopping experience.
 
 HOME PAGE 
-![image](https://github.com/user-attachments/assets/9f64ba8b-81d7-426d-9d9b-c171f8e2a9e8)
+![image](https://github.com/user-attachments/assets/b08e6fd0-989f-400d-b8ea-86e80b0e793a)
+
 
 ![image](https://github.com/user-attachments/assets/ecd86851-f766-41e3-89e3-d15cdf0b9d5b)
 
